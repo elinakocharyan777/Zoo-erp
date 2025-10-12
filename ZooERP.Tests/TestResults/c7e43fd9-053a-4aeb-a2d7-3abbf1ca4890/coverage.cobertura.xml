@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.9531999999999999" branch-rate="0.7818" version="1.9" timestamp="1760277016" lines-covered="102" lines-valid="107" branches-covered="43" branches-valid="55">
+  <sources>
+    <source>C:\Users\user\source\repos\ZooERP\</source>
+  </sources>
+  <packages>
+    <package name="ZooERP.Infrastruct" line-rate="1" branch-rate="1" complexity="10">
+      <classes>
+        <class name="ZooERP.Infrastruct.VetClinic" filename="ZooERP.Infrastruct\VetClinic.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="Decide" signature="(ZooERP.Logic.Animal,System.Int32)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="11" hits="12" branch="False" />
+                <line number="13" hits="14" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="10" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="14" hits="11" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="31" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="15" hits="9" branch="False" />
+                <line number="16" hits="12" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="12" branch="False" />
+            <line number="13" hits="14" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="10" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="14" hits="11" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="31" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="15" hits="9" branch="False" />
+            <line number="16" hits="12" branch="False" />
+          </lines>
+        </class>
+        <class name="ZooERP.Infrastruct.ZooStoreMemory" filename="ZooERP.Infrastruct\ZooStoreMemory.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="Next" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="AddAnimal" signature="(ZooERP.Logic.Animal)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="9" branch="False" />
+                <line number="24" hits="18" branch="False" />
+                <line number="25" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="Animals" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="7" branch="False" />
+                <line number="30" hits="14" branch="False" />
+                <line number="31" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="AddThing" signature="(ZooERP.Logic.Thing)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="4" branch="False" />
+                <line number="36" hits="8" branch="False" />
+                <line number="37" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="Things" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="41" hits="4" branch="False" />
+                <line number="42" hits="8" branch="False" />
+                <line number="43" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="19" branch="False" />
+                <line number="12" hits="19" branch="False" />
+                <line number="13" hits="19" branch="False" />
+                <line number="16" hits="19" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="12" branch="False" />
+            <line number="23" hits="9" branch="False" />
+            <line number="24" hits="18" branch="False" />
+            <line number="25" hits="9" branch="False" />
+            <line number="29" hits="7" branch="False" />
+            <line number="30" hits="14" branch="False" />
+            <line number="31" hits="7" branch="False" />
+            <line number="35" hits="4" branch="False" />
+            <line number="36" hits="8" branch="False" />
+            <line number="37" hits="4" branch="False" />
+            <line number="41" hits="4" branch="False" />
+            <line number="42" hits="8" branch="False" />
+            <line number="43" hits="4" branch="False" />
+            <line number="11" hits="19" branch="False" />
+            <line number="12" hits="19" branch="False" />
+            <line number="13" hits="19" branch="False" />
+            <line number="16" hits="19" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="ZooERP.Logic" line-rate="0.9411" branch-rate="0.7646999999999999" complexity="67">
+      <classes>
+        <class name="ZooERP.Logic.Animal" filename="ZooERP.Logic\Animal.cs" line-rate="0.9666" branch-rate="0.8571" complexity="27">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Kind" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Diet" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FoodKgPerDay" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Kindness" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="get_InventoryNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="GetDietFor" signature="(ZooERP.Logic.AnimalKind)" line-rate="0.875" branch-rate="0.8" complexity="5">
+              <lines>
+                <line number="51" hits="21" branch="True" condition-coverage="80% (4/5)">
+                  <conditions>
+                    <condition number="5" type="switch" coverage="80%" />
+                  </conditions>
+                </line>
+                <line number="52" hits="21" branch="False" />
+                <line number="53" hits="10" branch="False" />
+                <line number="54" hits="4" branch="False" />
+                <line number="55" hits="3" branch="False" />
+                <line number="56" hits="4" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="21" branch="False" />
+              </lines>
+            </method>
+            <method name="AssignInventoryNumber" signature="(System.Int32)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="62" hits="11" branch="False" />
+                <line number="63" hits="11" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="10" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="64" hits="12" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="34" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="65" hits="10" branch="False" />
+                <line number="66" hits="10" branch="False" />
+              </lines>
+            </method>
+            <method name="ToString" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="70" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="153" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,ZooERP.Logic.AnimalKind,System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="10">
+              <lines>
+                <line number="36" hits="22" branch="False" />
+                <line number="37" hits="22" branch="False" />
+                <line number="39" hits="22" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="40" hits="21" branch="False" />
+                <line number="41" hits="21" branch="False" />
+                <line number="43" hits="22" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="71" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="44" hits="21" branch="True" condition-coverage="100% (6/6)">
+                  <conditions>
+                    <condition number="92" type="jump" coverage="100%" />
+                    <condition number="98" type="jump" coverage="100%" />
+                    <condition number="111" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="46" hits="19" branch="False" />
+                <line number="47" hits="19" branch="False" />
+                <line number="48" hits="19" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="5" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="24" hits="6" branch="False" />
+            <line number="27" hits="4" branch="False" />
+            <line number="30" hits="5" branch="False" />
+            <line number="33" hits="4" branch="False" />
+            <line number="51" hits="21" branch="True" condition-coverage="80% (4/5)">
+              <conditions>
+                <condition number="5" type="switch" coverage="80%" />
+              </conditions>
+            </line>
+            <line number="52" hits="21" branch="False" />
+            <line number="53" hits="10" branch="False" />
+            <line number="54" hits="4" branch="False" />
+            <line number="55" hits="3" branch="False" />
+            <line number="56" hits="4" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="21" branch="False" />
+            <line number="62" hits="11" branch="False" />
+            <line number="63" hits="11" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="10" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="64" hits="12" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="34" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="65" hits="10" branch="False" />
+            <line number="66" hits="10" branch="False" />
+            <line number="70" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="153" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="36" hits="22" branch="False" />
+            <line number="37" hits="22" branch="False" />
+            <line number="39" hits="22" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="15" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="40" hits="21" branch="False" />
+            <line number="41" hits="21" branch="False" />
+            <line number="43" hits="22" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="71" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="44" hits="21" branch="True" condition-coverage="100% (6/6)">
+              <conditions>
+                <condition number="92" type="jump" coverage="100%" />
+                <condition number="98" type="jump" coverage="100%" />
+                <condition number="111" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="46" hits="19" branch="False" />
+            <line number="47" hits="19" branch="False" />
+            <line number="48" hits="19" branch="False" />
+          </lines>
+        </class>
+        <class name="ZooERP.Logic.VetDecision" filename="ZooERP.Logic\Contracts.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Status" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="25" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="25" branch="False" />
+          </lines>
+        </class>
+        <class name="ZooERP.Logic.AdmissionResult" filename="ZooERP.Logic\Contracts.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Accepted" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="13" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="13" branch="False" />
+          </lines>
+        </class>
+        <class name="ZooERP.Logic.FoodReport" filename="ZooERP.Logic\Contracts.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_AnimalCount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="ZooERP.Logic.Thing" filename="ZooERP.Logic\Thing.cs" line-rate="1" branch-rate="0.6666" complexity="9">
+          <methods>
+            <method name="get_Type" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="get_InventoryNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="AssignInventoryNumber" signature="(System.Int32)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="31" hits="6" branch="False" />
+                <line number="32" hits="6" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="10" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="33" hits="7" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="34" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="34" hits="5" branch="False" />
+                <line number="35" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="ToString" signature="()" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="39" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="45" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name=".ctor" signature="(ZooERP.Logic.ThingType)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="16" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="6" branch="False" />
+            <line number="24" hits="5" branch="False" />
+            <line number="31" hits="6" branch="False" />
+            <line number="32" hits="6" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="10" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="33" hits="7" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="34" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="34" hits="5" branch="False" />
+            <line number="35" hits="5" branch="False" />
+            <line number="39" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="45" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="27" hits="16" branch="False" />
+          </lines>
+        </class>
+        <class name="ZooERP.Logic.ZooService" filename="ZooERP.Logic\ZooService.cs" line-rate="0.9068999999999999" branch-rate="0.7082999999999999" complexity="28">
+          <methods>
+            <method name="TryAdmitAnimal" signature="(ZooERP.Logic.Animal,System.Int32)" line-rate="0.7333" branch-rate="0.6428" complexity="14">
+              <lines>
+                <line number="25" hits="11" branch="False" />
+                <line number="26" hits="11" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="27" hits="13" branch="True" condition-coverage="100% (6/6)">
+                  <conditions>
+                    <condition number="22" type="jump" coverage="100%" />
+                    <condition number="27" type="jump" coverage="100%" />
+                    <condition number="40" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="30" hits="9" branch="False" />
+                <line number="33" hits="9" branch="True" condition-coverage="50% (2/4)">
+                  <conditions>
+                    <condition number="88" type="switch" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="34" hits="9" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="8" branch="False" />
+                <line number="37" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="144" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="9" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="9" branch="False" />
+                <line number="43" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="AddThing" signature="(ZooERP.Logic.Thing)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="47" hits="3" branch="False" />
+                <line number="48" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="49" hits="2" branch="False" />
+                <line number="50" hits="2" branch="False" />
+                <line number="51" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="GetFoodReport" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="55" hits="2" branch="False" />
+                <line number="56" hits="2" branch="False" />
+                <line number="57" hits="4" branch="False" />
+                <line number="58" hits="2" branch="False" />
+                <line number="59" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="GetContactAnimals" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="63" hits="2" branch="False" />
+                <line number="64" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="6" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="GetThings" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="70" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="GetAnimals" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="73" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="Accept" signature="(ZooERP.Logic.Animal,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="77" hits="8" branch="False" />
+                <line number="78" hits="8" branch="False" />
+                <line number="79" hits="8" branch="False" />
+                <line number="80" hits="8" branch="False" />
+                <line number="81" hits="8" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(ZooERP.Logic.IZooStore,ZooERP.Logic.IVetClinic,ZooERP.Logic.IInventoryNumberGenerator)" line-rate="1" branch-rate="0.6666" complexity="6">
+              <lines>
+                <line number="16" hits="15" branch="False" />
+                <line number="17" hits="15" branch="False" />
+                <line number="18" hits="15" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="11" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="15" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="33" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="20" hits="15" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="55" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="21" hits="14" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="25" hits="11" branch="False" />
+            <line number="26" hits="11" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="27" hits="13" branch="True" condition-coverage="100% (6/6)">
+              <conditions>
+                <condition number="22" type="jump" coverage="100%" />
+                <condition number="27" type="jump" coverage="100%" />
+                <condition number="40" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="30" hits="9" branch="False" />
+            <line number="33" hits="9" branch="True" condition-coverage="50% (2/4)">
+              <conditions>
+                <condition number="88" type="switch" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="34" hits="9" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="8" branch="False" />
+            <line number="37" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="144" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="9" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="9" branch="False" />
+            <line number="43" hits="9" branch="False" />
+            <line number="47" hits="3" branch="False" />
+            <line number="48" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="49" hits="2" branch="False" />
+            <line number="50" hits="2" branch="False" />
+            <line number="51" hits="2" branch="False" />
+            <line number="55" hits="2" branch="False" />
+            <line number="56" hits="2" branch="False" />
+            <line number="57" hits="4" branch="False" />
+            <line number="58" hits="2" branch="False" />
+            <line number="59" hits="2" branch="False" />
+            <line number="63" hits="2" branch="False" />
+            <line number="64" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="6" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="2" branch="False" />
+            <line number="70" hits="2" branch="False" />
+            <line number="73" hits="2" branch="False" />
+            <line number="77" hits="8" branch="False" />
+            <line number="78" hits="8" branch="False" />
+            <line number="79" hits="8" branch="False" />
+            <line number="80" hits="8" branch="False" />
+            <line number="81" hits="8" branch="False" />
+            <line number="16" hits="15" branch="False" />
+            <line number="17" hits="15" branch="False" />
+            <line number="18" hits="15" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="11" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="19" hits="15" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="33" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="20" hits="15" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="55" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="21" hits="14" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
