@@ -10,3 +10,8 @@ obj/
 *.suo
 .DS_Store
 Thumbs.db
+
+# Generated test and coverage results
+TestResults/
+coverage/
+*.trx
